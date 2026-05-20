@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Parrilla del Canal – Cordero fueguino y carnes patagónicas frente al Canal Beagle, Ushuaia, Tierra del Fuego." />
+  <meta name="theme-color" content="#2C1810" />
+  <meta property="og:title" content="Parrilla del Canal | Ushuaia" />
+  <meta property="og:description" content="La mejor parrilla de Ushuaia. Cordero al asador y cortes patagónicos con vista al Canal Beagle." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&q=80" />
+  <title>Parrilla del Canal | Ushuaia – Tierra del Fuego</title>
+
+  <!-- Favicon SVG inline (llama estilizada) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232C1810'/%3E%3Cpath d='M16 6c2 3 4 5 4 9 0 3-2 6-4 6s-4-3-4-6c0-2 1-3 2-4-1 2 0 4 2 4 0-2-1-4 0-9z' fill='%23A8331E'/%3E%3C/svg%3E" />
+
+  <!-- Fonts: Fraunces (display) + DM Sans (body) — diferenciado del default Inter/Playfair -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="nav" role="navigation" aria-label="Navegación principal">
+  <a href="#inicio" class="nav-logo">Parrilla del Canal</a>
+  <ul class="nav-links">
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#menu">Menú</a></li>
+    <li><a href="#ubicacion">Ubicación</a></li>
+    <li><a href="#instagram">Instagram</a></li>
+    <li><a href="#reservas" class="nav-cta">Reservar</a></li>
+  </ul>
+  <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" role="dialog" aria-modal="true" aria-label="Menú móvil">
+  <a href="#nosotros">Nosotros</a>
+  <a href="#menu">Menú</a>
+  <a href="#reservas">Reservas</a>
+  <a href="#ubicacion">Ubicación</a>
+  <a href="#instagram">Instagram</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="inicio">
+  <div class="hero-bg" role="img" aria-label="Cordero al asador frente al Canal Beagle"></div>
+  <div class="hero-content">
+    <span class="hero-badge">Ushuaia · Tierra del Fuego</span>
+    <h1>Parrilla del Canal</h1>
+    <p class="hero-sub">Cordero fueguino y carnes patagónicas frente al Canal Beagle</p>
+    <div class="hero-rating" aria-label="Calificación 4.8 en Google con 312 reseñas">
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <span class="rating-text">4,8 en Google · 312 reseñas</span>
+    </div>
+    <a href="#" data-wa class="btn-wa">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.118 1.529 5.845L.057 23.717a.75.75 0 0 0 .92.92l5.87-1.472A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75A9.746 9.746 0 0 1 6.64 20.2l-.374-.222-3.883.973.99-3.777-.244-.389A9.745 9.745 0 0 1 2.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/>
+      </svg>
+      Reservar por WhatsApp
+    </a>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 5v14M5 12l7 7 7-7"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ===== SOBRE NOSOTROS ===== -->
+<section class="nosotros" id="nosotros">
+  <div class="nosotros-grid">
+    <div class="nosotros-img-wrap fade-up">
+      <img
+        src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80&auto=format&fit=crop"
+        alt="Interior cálido de Parrilla del Canal con mesas de madera"
+        loading="lazy"
+        width="900" height="700"
+      />
+    </div>
+    <div class="nosotros-text fade-up">
+      <span class="section-label">Sobre nosotros</span>
+      <h2 class="section-title">Cocina fueguina<br>desde 2014</h2>
+      <p>Somos una familia fueguina que abrió las puertas hace más de diez años con una idea simple: cordero criado en estancia propia, cocido lento a las brasas, frente al canal más austral del mundo.</p>
+      <p>Trabajamos con productores locales de Tolhuin y Río Grande. La leña es de lenga del bosque andino patagónico. El vino, de bodegas argentinas seleccionadas. Cada plato es resultado de esa cadena corta y honesta.</p>
+      <div class="nosotros-stats">
+        <div class="stat">
+          <strong>10+</strong>
+          <span>años en Ushuaia</span>
+        </div>
+        <div class="stat">
+          <strong>4,8</strong>
+          <span>rating Google</span>
+        </div>
+        <div class="stat">
+          <strong>100%</strong>
+          <span>cordero fueguino</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROPUESTA ===== -->
+<section class="propuesta" id="propuesta">
+  <div class="text-center">
+    <span class="section-label">¿Por qué elegirnos?</span>
+    <h2 class="section-title">Una experiencia única en el fin del mundo</h2>
+    <p class="section-desc">Tradición gaucha y sabores únicos de la Patagonia austral, en un solo lugar.</p>
+  </div>
+  <div class="propuesta-grid">
+    <div class="prop-card fade-up">
+      <span class="prop-icon" aria-hidden="true">🔥</span>
+      <h3>Cordero al asador</h3>
+      <p>Cordero fueguino criado en estancias de Tierra del Fuego, cocido lentamente a las brasas durante 4 horas. Jugoso, tierno y con el ahumado inconfundible de la leña de lenga.</p>
+    </div>
+    <div class="prop-card fade-up">
+      <span class="prop-icon" aria-hidden="true">🌊</span>
+      <h3>Vista al Canal Beagle</h3>
+      <p>Nuestra terraza acristalada sobre la costanera ofrece una vista espectacular al Canal Beagle y los montes nevados de Chile. El mejor paisaje del fin del mundo en tu mesa.</p>
+    </div>
+    <div class="prop-card fade-up">
+      <span class="prop-icon" aria-hidden="true">📱</span>
+      <h3>Reservas inmediatas</h3>
+      <p>Reservá tu mesa en segundos por WhatsApp. Sin formularios, sin esperas. Confirmamos al instante y te guardamos el mejor lugar de la casa.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENÚ DESTACADO ===== -->
+<section class="menu" id="menu">
+  <div class="text-center">
+    <span class="section-label">Lo mejor de la casa</span>
+    <h2 class="section-title">Menú destacado</h2>
+    <p class="section-desc">Cortes seleccionados y preparaciones únicas que celebran la cocina fueguina y patagónica.</p>
+  </div>
+
+  <div class="menu-grid">
+
+    <article class="dish-card fade-up">
+      <img
+        class="dish-img"
+        src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=75&auto=format&fit=crop"
+        alt="Cordero al asador entero"
+        loading="lazy"
+        width="600" height="220"
+      />
+      <div class="dish-body">
+        <h3>Cordero al asador entero</h3>
+        <p>Cordero fueguino de 12 kg cocido a las brasas durante 4 horas. Para la mesa completa (mín. 6 personas). Incluye guarniciones.</p>
+        <div class="dish-footer">
+          <span class="dish-price">$145.000</span>
+          <span class="dish-tag">⭐ Estrella</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="dish-card fade-up">
+      <img
+        class="dish-img"
+        src="https://images.unsplash.com/photo-1558030006-450675393462?w=600&q=75&auto=format&fit=crop"
+        alt="Media costilla de cordero a la brasa"
+        loading="lazy"
+        width="600" height="220"
+      />
+      <div class="dish-body">
+        <h3>Costillar de cordero</h3>
+        <p>Media costilla tierna a la parrilla, marinada en chimichurri de hierbas patagónicas. Servida con puré rústico de papa andina.</p>
+        <div class="dish-footer">
+          <span class="dish-price">$48.000</span>
+          <span class="dish-tag">Popular</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="dish-card fade-up">
+      <img
+        class="dish-img"
+        src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=75&auto=format&fit=crop"
+        alt="Bife de chorizo angus patagónico"
+        loading="lazy"
+        width="600" height="220"
+      />
+      <div class="dish-body">
+        <h3>Bife de chorizo Angus</h3>
+        <p>Corte Angus patagónico de 400 g, madurado 21 días, a punto exacto. Con chimichurri de la casa y papas rústicas al romero.</p>
+        <div class="dish-footer">
+          <span class="dish-price">$52.000</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="dish-card fade-up">
+      <img
+        class="dish-img"
+        src="https://images.unsplash.com/photo-1485921325833-c519f76c4927?w=600&q=75&auto=format&fit=crop"
+        alt="Trucha del lago Fagnano a la parrilla"
+        loading="lazy"
+        width="600" height="220"
+      />
+      <div class="dish-body">
+        <h3>Trucha del lago Fagnano</h3>
+        <p>Trucha patagónica entera a la parrilla con manteca de hierbas, limón de Mendoza y cebollín. Pesca fresca del lago Fagnano.</p>
+        <div class="dish-footer">
+          <span class="dish-price">$42.000</span>
+          <span class="dish-tag">Del lago</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="dish-card fade-up">
+      <img
+        class="dish-img"
+        src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&q=75&auto=format&fit=crop"
+        alt="Entraña a la criolla"
+        loading="lazy"
+        width="600" height="220"
+      />
+      <div class="dish-body">
+        <h3>Entraña a la criolla</h3>
+        <p>Entraña fina patagónica a las brasas, jugosa y tierna. Servida con ensalada criolla de tomate, pimiento y cebolla morada.</p>
+        <div class="dish-footer">
+          <span class="dish-price">$45.000</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="dish-card fade-up">
+      <img
+        class="dish-img"
+        src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=75&auto=format&fit=crop"
+        alt="Tabla patagónica mixta"
+        loading="lazy"
+        width="600" height="220"
+      />
+      <div class="dish-body">
+        <h3>Tabla patagónica (para 2)</h3>
+        <p>Selección de embutidos de la casa, morcilla artesanal, chorizo patagónico, provoleta ahumada y pan de campo tostado.</p>
+        <div class="dish-footer">
+          <span class="dish-price">$38.000</span>
+          <span class="dish-tag">Para compartir</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="text-center">
+    <a href="#" class="btn-outline" aria-label="Ver menú completo (próximamente)">Ver menú completo</a>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIOS ===== -->
+<section class="testimonios" id="testimonios">
+  <div class="text-center">
+    <span class="section-label">Lo que dicen de nosotros</span>
+    <h2 class="section-title">Reseñas reales</h2>
+    <p class="section-desc">Más de 300 reseñas en Google con 4,8 estrellas de promedio.</p>
+  </div>
+
+  <div class="testi-grid">
+    <article class="testi-card fade-up">
+      <div class="testi-stars" aria-hidden="true">★★★★★</div>
+      <p>"El cordero al asador es lo mejor que comí en mi vida. Vinimos por recomendación y volvimos tres veces en una semana. La vista al Canal Beagle de noche es impresionante."</p>
+      <div class="testi-author">
+        <div class="testi-avatar" style="background:#A8331E">M</div>
+        <div>
+          <strong>Martín Ferreyra</strong>
+          <span>Buenos Aires · Google</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="testi-card fade-up">
+      <div class="testi-stars" aria-hidden="true">★★★★★</div>
+      <p>"Reservamos por WhatsApp en 30 segundos, nos confirmaron al instante. Atención impecable, trucha del Fagnano espectacular. Lugar obligado en Ushuaia."</p>
+      <div class="testi-author">
+        <div class="testi-avatar" style="background:#C9A961;color:#2C1810">L</div>
+        <div>
+          <strong>Laura Giménez</strong>
+          <span>Córdoba · Google</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="testi-card fade-up">
+      <div class="testi-stars" aria-hidden="true">★★★★★</div>
+      <p>"Soy local de Ushuaia y siempre los recomiendo a turistas. Cordero criado acá nomás, parrilla con leña de verdad, trato familiar. No fallan nunca."</p>
+      <div class="testi-author">
+        <div class="testi-avatar" style="background:#4A2518">D</div>
+        <div>
+          <strong>Diego Aguilar</strong>
+          <span>Ushuaia · Google</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== RESERVAS ===== -->
+<section class="reservas" id="reservas">
+  <div class="reservas-content">
+    <span class="section-label" style="color:var(--gold)">Reservas</span>
+    <h2 class="section-title">Reservá tu mesa<br>en 1 minuto</h2>
+    <p class="section-desc">Sin formularios ni esperas. Contactanos por WhatsApp y confirmamos al instante.</p>
+    <div class="reservas-msg">
+      "Hola! Quisiera reservar una mesa en Parrilla del Canal.<br>
+      Somos <strong>[cantidad]</strong> personas, para el día <strong>[fecha]</strong> a las <strong>[hora]</strong>. Gracias!"
+    </div>
+    <a href="#" data-wa class="btn-wa-lg">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.118 1.529 5.845L.057 23.717a.75.75 0 0 0 .92.92l5.87-1.472A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75A9.746 9.746 0 0 1 6.64 20.2l-.374-.222-3.883.973.99-3.777-.244-.389A9.745 9.745 0 0 1 2.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/>
+      </svg>
+      Reservar por WhatsApp
+    </a>
+    <a href="tel:+5492901555010" class="tel-link">
+      📞 +54 9 2901 555-0100
+    </a>
+  </div>
+</section>
+
+<!-- ===== UBICACIÓN Y HORARIOS ===== -->
+<section class="ubicacion" id="ubicacion">
+  <div class="text-center" style="margin-bottom:3rem">
+    <span class="section-label">Encontranos</span>
+    <h2 class="section-title">Ubicación y horarios</h2>
+  </div>
+  <div class="ubicacion-grid">
+    <div class="ubicacion-info fade-up">
+      <h3>Parrilla del Canal</h3>
+
+      <div class="info-item">
+        <span class="info-icon" aria-hidden="true">📍</span>
+        <div>
+          <strong>Dirección</strong>
+          <p>Maipú 800, frente al Canal Beagle<br>Ushuaia, Tierra del Fuego, Argentina</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <span class="info-icon" aria-hidden="true">🕐</span>
+        <div>
+          <strong>Horarios</strong>
+          <table class="horarios-table">
+            <tbody>
+              <tr><td>Martes a domingo</td><td>19:00 – 00:00</td></tr>
+              <tr><td class="cerrado">Lunes</td><td class="cerrado">Cerrado</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <span class="info-icon" aria-hidden="true">📞</span>
+        <div>
+          <strong>Teléfono / WhatsApp</strong>
+          <p><a href="tel:+5492901555010">+54 9 2901 555-0100</a></p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <span class="info-icon" aria-hidden="true">✉️</span>
+        <div>
+          <strong>E-mail</strong>
+          <p><a href="mailto:reservas@parrillacanal.com.ar">reservas@parrillacanal.com.ar</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-wrap fade-up">
+      <!-- Mapa real de Ushuaia centrado en Av. Maipú 800 -->
+      <iframe
+        title="Ubicación Parrilla del Canal en Ushuaia"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-68.31200%2C-54.81000%2C-68.29400%2C-54.80400&amp;layer=mapnik&amp;marker=-54.80700%2C-68.30300"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INSTAGRAM ===== -->
+<section class="instagram" id="instagram">
+  <div class="text-center">
+    <span class="section-label">Seguinos</span>
+    <h2 class="section-title">@parrillacanal</h2>
+    <p class="section-desc">Mirá lo que pasa en nuestra parrilla cada noche. Cortes, fuego y el Canal Beagle de fondo.</p>
+  </div>
+
+  <div class="insta-grid">
+    <a href="https://instagram.com/explore/tags/parrillaargentina/" class="insta-item" aria-label="Foto 1 de Instagram" target="_blank" rel="noopener">
+      <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=400&q=70&auto=format&fit=crop" alt="Asado al fuego en la noche" loading="lazy" width="400" height="400" />
+      <div class="insta-overlay" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </div>
+    </a>
+    <a href="https://instagram.com/explore/tags/parrillaargentina/" class="insta-item" aria-label="Foto 2 de Instagram" target="_blank" rel="noopener">
+      <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=70&auto=format&fit=crop" alt="Copas de vino patagónico" loading="lazy" width="400" height="400" />
+      <div class="insta-overlay" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </div>
+    </a>
+    <a href="https://instagram.com/explore/tags/parrillaargentina/" class="insta-item" aria-label="Foto 3 de Instagram" target="_blank" rel="noopener">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=70&auto=format&fit=crop" alt="Interior del restaurante" loading="lazy" width="400" height="400" />
+      <div class="insta-overlay" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </div>
+    </a>
+    <a href="https://instagram.com/explore/tags/parrillaargentina/" class="insta-item" aria-label="Foto 4 de Instagram" target="_blank" rel="noopener">
+      <img src="https://images.unsplash.com/photo-1547573854-74d2a71d0826?w=400&q=70&auto=format&fit=crop" alt="Chimichurri y especias" loading="lazy" width="400" height="400" />
+      <div class="insta-overlay" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </div>
+    </a>
+    <a href="https://instagram.com/explore/tags/parrillaargentina/" class="insta-item" aria-label="Foto 5 de Instagram" target="_blank" rel="noopener">
+      <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=70&auto=format&fit=crop" alt="Vista del Canal Beagle" loading="lazy" width="400" height="400" />
+      <div class="insta-overlay" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </div>
+    </a>
+    <a href="https://instagram.com/explore/tags/parrillaargentina/" class="insta-item" aria-label="Foto 6 de Instagram" target="_blank" rel="noopener">
+      <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&q=70&auto=format&fit=crop" alt="Postre de la casa" loading="lazy" width="400" height="400" />
+      <div class="insta-overlay" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </div>
+    </a>
+  </div>
+
+  <div class="text-center">
+    <a href="https://instagram.com/explore/tags/parrillaargentina/" target="_blank" rel="noopener noreferrer" class="btn-insta">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      Seguinos en Instagram
+    </a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">Parrilla del Canal</div>
+      <p class="footer-tagline">Cordero fueguino y carnes patagónicas<br>frente al Canal Beagle.<br>Ushuaia, Tierra del Fuego.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <p>
+        Maipú 800, frente al Canal Beagle<br>
+        Ushuaia, Tierra del Fuego<br><br>
+        <a href="tel:+5492901555010">+54 9 2901 555-0100</a><br>
+        <a href="mailto:reservas@parrillacanal.com.ar">reservas@parrillacanal.com.ar</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Parrilla del Canal. Todos los derechos reservados.</p>
+    <p>Sitio creado por <a href="https://mesallena.com.ar" target="_blank" rel="noopener noreferrer">Mesa Llena</a></p>
+  </div>
+</footer>
+
+<!-- ===== WHATSAPP FLOTANTE (mobile) ===== -->
+<a href="#" data-wa class="wa-float" aria-label="Reservar por WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.118 1.529 5.845L.057 23.717a.75.75 0 0 0 .92.92l5.87-1.472A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75A9.746 9.746 0 0 1 6.64 20.2l-.374-.222-3.883.973.99-3.777-.244-.389A9.745 9.745 0 0 1 2.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
