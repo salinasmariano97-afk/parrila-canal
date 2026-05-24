@@ -75,7 +75,7 @@ if ('IntersectionObserver' in window && !prefersReducedMotion) {
 /* ===== WHATSAPP LINK BUILDER =====
    Punto único de configuración. Cuando vendas a un cliente real,
    cambiá WA_NUMBER y WA_MSG y listo. */
-const WA_NUMBER = '5492901555010';
+const WA_NUMBER = '2901548298';
 const WA_MSG = encodeURIComponent(
   'Hola! Quisiera reservar una mesa en Parrilla del Canal. ' +
   'Somos [cantidad] personas, para el día [fecha] a las [hora]. Gracias!'
